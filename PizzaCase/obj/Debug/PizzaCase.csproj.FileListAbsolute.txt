@@ -1,0 +1,10 @@
+C:\Users\Gebruiker\source\repos\PizzaCase\PizzaCase\bin\Debug\PizzaCase.exe.config
+C:\Users\Gebruiker\source\repos\PizzaCase\PizzaCase\bin\Debug\PizzaCase.exe
+C:\Users\Gebruiker\source\repos\PizzaCase\PizzaCase\bin\Debug\PizzaCase.pdb
+C:\Users\Gebruiker\source\repos\PizzaCase\PizzaCase\obj\Debug\PizzaCase.csproj.AssemblyReference.cache
+C:\Users\Gebruiker\source\repos\PizzaCase\PizzaCase\obj\Debug\PizzaCase.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\source\repos\PizzaCase\PizzaCase\obj\Debug\PizzaCase.exe
+C:\Users\Gebruiker\source\repos\PizzaCase\PizzaCase\obj\Debug\PizzaCase.pdb
+C:\Users\Gebruiker\source\repos\PizzaCase\PizzaCase\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Gebruiker\source\repos\PizzaCase\PizzaCase\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Gebruiker\source\repos\PizzaCase\PizzaCase\obj\Debug\PizzaCase.csproj.CopyComplete

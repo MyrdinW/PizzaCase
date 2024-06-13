@@ -1,0 +1,141 @@
+13-6-2024 12:38:52: TCP Server gestart.
+13-6-2024 12:39:15: Client verbonden.
+13-6-2024 12:39:15: Ontvangen 492 bytes.
+13-6-2024 12:39:15: Bestelling ontvangen: test, 1 pizza(s)
+13-6-2024 12:39:15: Pizza: Margherita, Toppings: , Prijs: € 5,00
+13-6-2024 12:39:15: Totale Prijs: € 5,00
+13-6-2024 12:39:15: Bevestiging naar client verzonden.
+13-6-2024 12:45:15: TCP Server gestart.
+13-6-2024 12:45:43: Client verbonden.
+13-6-2024 12:45:43: Ontvangen 812 bytes.
+13-6-2024 12:45:43: Bestelling ontvangen: test, 2 pizza(s)
+13-6-2024 12:45:43: Pizza: Margherita, Toppings: Mushrooms, Prijs: € 5,75
+13-6-2024 12:45:43: Pizza: Margherita, Toppings: , Prijs: € 5,00
+13-6-2024 12:45:43: Totale Prijs: € 10,75
+13-6-2024 12:45:43: Bevestiging naar client verzonden.
+13-6-2024 12:46:06: UDP Server gestart.
+13-6-2024 12:46:16: Ontvangen 472 bytes.
+13-6-2024 12:46:16: Bestelling ontvangen: test, 1 pizza(s)
+13-6-2024 12:46:16: Pizza: Pepperoni, Toppings: , Prijs: € 7,00
+13-6-2024 12:46:16: Totale Prijs: € 7,00
+13-6-2024 12:46:16: Bevestiging naar client verzonden.
+13-6-2024 13:21:10: UDP Server gestart.
+13-6-2024 13:21:26: Ontvangen 640 bytes.
+13-6-2024 13:27:23: UDP Server gestart.
+13-6-2024 13:27:38: Ontvangen 640 bytes.
+13-6-2024 13:27:57: TCP Server gestart.
+13-6-2024 13:28:16: Client verbonden.
+13-6-2024 13:28:16: Ontvangen 492 bytes.
+13-6-2024 13:28:16: Bestelling ontvangen: test, 1 pizza(s)
+13-6-2024 13:28:16: Pizza: Margherita, Toppings: , Prijs: € 5,00
+13-6-2024 13:28:16: Totale Prijs: € 5,00
+13-6-2024 13:28:16: Bevestiging naar client verzonden.
+13-6-2024 13:35:11: UDP Server gestart.
+13-6-2024 13:35:23: Ontvangen 600 bytes.
+13-6-2024 13:35:23: Bestelling ontvangen: test, 1 pizza(s)
+13-6-2024 13:35:23: Pizza: Pepperoni, Toppings: , Prijs: € 7,00
+13-6-2024 13:35:23: Totale Prijs: € 7,00
+13-6-2024 13:35:23: Bevestiging naar client verzonden.
+13-6-2024 13:35:23: ERROR: Er trad een fout op in de server. - Exception: De externe host heeft een verbinding verbroken
+13-6-2024 13:37:45: UDP Server gestart.
+13-6-2024 13:38:01: Ontvangen 600 bytes.
+13-6-2024 13:38:01: Bestelling ontvangen: test, 1 pizza(s)
+13-6-2024 13:38:01: Pizza: Margherita, Toppings: , Prijs: € 5,00
+13-6-2024 13:38:01: Totale Prijs: € 5,00
+13-6-2024 13:38:01: Bevestiging naar client verzonden.
+13-6-2024 13:44:44: TCP Server gestart.
+13-6-2024 13:45:06: Client verbonden.
+13-6-2024 13:45:06: Bestelling ontvangen: test, 1 pizza(s)
+13-6-2024 13:45:06: Pizza: Margherita, Toppings: , Prijs: € 5,00
+13-6-2024 13:45:06: Totale Prijs: € 5,00
+13-6-2024 13:45:06: Bevestiging naar client verzonden.
+13-6-2024 13:45:52: UDP Server gestart.
+13-6-2024 13:46:04: Ontvangen 640 bytes.
+13-6-2024 13:46:04: Bestelling ontvangen: 1, 1 pizza(s)
+13-6-2024 13:46:04: Pizza: Margherita, Toppings: , Prijs: € 5,00
+13-6-2024 13:46:04: Totale Prijs: € 5,00
+13-6-2024 13:46:04: Bevestiging naar client verzonden.
+13-6-2024 13:48:29: TCP Server gestart.
+13-6-2024 13:48:53: Client verbonden.
+13-6-2024 13:48:53: Bestelling ontvangen: 1, 1 pizza(s)
+13-6-2024 13:48:53: Pizza: Margherita, Toppings: , Prijs: € 5,00
+13-6-2024 13:48:53: Totale Prijs: € 5,00
+13-6-2024 13:48:53: Bevestiging naar client verzonden.
+13-6-2024 13:52:50: TCP Server gestart.
+13-6-2024 13:53:04: Client verbonden.
+13-6-2024 13:53:04: Bestelling ontvangen: test, 1 pizza(s)
+13-6-2024 13:53:04: Pizza: Margherita, Toppings: , Prijs: 5,00
+13-6-2024 13:53:04: Totale Prijs: 5,00
+13-6-2024 13:53:04: Bevestiging naar client verzonden.
+13-6-2024 14:00:09: TCP Server gestart.
+13-6-2024 14:00:36: Client verbonden.
+13-6-2024 14:00:36: Bestelling ontvangen: test, 3 pizza(s)
+13-6-2024 14:00:36: Pizza: Tonno, Toppings: Mushrooms, Prijs: 7,50
+13-6-2024 14:00:36: Pizza: Diablo, Toppings: Mushrooms, Prijs: 8,00
+13-6-2024 14:00:36: Pizza: Diablo, Toppings: Mushrooms, Prijs: 8,00
+13-6-2024 14:00:36: Totale Prijs: 23,50
+13-6-2024 14:00:36: Bevestiging naar client verzonden.
+13-6-2024 14:07:31: TCP Server gestart.
+13-6-2024 14:07:56: Client verbonden.
+13-6-2024 14:07:56: Bestelling ontvangen: 1, 3 pizza(s)
+13-6-2024 14:07:56: Pizza: Tonno, Toppings: , Prijs: 7,50
+13-6-2024 14:07:56: Pizza: Diablo, Toppings: Extra Cheese, Prijs: 8,00
+13-6-2024 14:07:56: Pizza: Diablo, Toppings: Mushrooms, Prijs: 8,00
+13-6-2024 14:07:56: Totale Prijs: 23,50
+13-6-2024 14:07:56: Bevestiging naar client verzonden.
+13-6-2024 14:11:11: TCP Server gestart.
+13-6-2024 14:11:36: Client verbonden.
+13-6-2024 14:11:36: Bestelling ontvangen: 1, 3 pizza(s)
+13-6-2024 14:11:36: Pizza: Tonno, Toppings: , Prijs: 7,50
+13-6-2024 14:11:36: Pizza: Diablo, Toppings: Extra Cheese, Prijs: 9,25
+13-6-2024 14:11:36: Pizza: Diablo, Toppings: Mushrooms, Prijs: 8,75
+13-6-2024 14:11:36: Totale Prijs: 25,50
+13-6-2024 14:11:36: Bevestiging naar client verzonden.
+13-6-2024 14:19:14: TCP Server gestart.
+13-6-2024 14:19:35: Client verbonden.
+13-6-2024 14:19:35: Bestelling ontvangen: 1, 1 pizza(s)
+13-6-2024 14:19:35: Pizza: Margherita, Toppings: Uien, Prijs: 5,40
+13-6-2024 14:19:35: Totale Prijs: 5,40
+13-6-2024 14:19:35: Bevestiging naar client verzonden.
+13-6-2024 14:27:11: TCP Server gestart.
+13-6-2024 14:27:45: Client verbonden.
+13-6-2024 14:27:45: Bestelling ontvangen: 1, 2 pizza(s)
+13-6-2024 14:27:45: Pizza: Pepperoni, Toppings: Extra Cheese, Uien, Prijs: 8,65
+13-6-2024 14:27:45: Pizza: Pepperoni, Toppings: Extra Cheese, Mushrooms, Uien, Prijs: 10,65
+13-6-2024 14:27:45: Totale Prijs: 19,30
+13-6-2024 14:27:45: Bevestiging naar client verzonden.
+13-6-2024 14:28:25: UDP Server gestart.
+13-6-2024 14:29:05: Ontvangen 2348 bytes.
+13-6-2024 14:29:05: Bestelling ontvangen: 1, 4 pizza(s)
+13-6-2024 14:29:05: Pizza: Margherita, Toppings: , Prijs: 5,00
+13-6-2024 14:29:05: Pizza: Pepperoni, Toppings: Extra Cheese, Prijs: 8,25
+13-6-2024 14:29:05: Pizza: Pepperoni, Toppings: Mushrooms, Uien, Prijs: 8,15
+13-6-2024 14:29:05: Pizza: Tonno, Toppings: , Prijs: 7,50
+13-6-2024 14:29:05: Totale Prijs: 28,90
+13-6-2024 14:29:05: Bevestiging naar client verzonden.
+13-6-2024 14:29:35: TCP Server gestart.
+13-6-2024 14:30:12: Client verbonden.
+13-6-2024 14:30:12: Bestelling ontvangen: 1, 3 pizza(s)
+13-6-2024 14:30:12: Pizza: Margherita, Toppings: Extra Cheese, Prijs: 6,25
+13-6-2024 14:30:12: Pizza: Margherita, Toppings: Extra Cheese, Prijs: 7,50
+13-6-2024 14:30:12: Pizza: Tonno, Toppings: , Prijs: 7,50
+13-6-2024 14:30:12: Totale Prijs: 21,25
+13-6-2024 14:30:12: Bevestiging naar client verzonden.
+13-6-2024 15:51:33: TCP Server gestart.
+13-6-2024 15:52:31: Client verbonden.
+13-6-2024 15:52:31: Bestelling ontvangen: Myrdin, 3 pizza(s)
+13-6-2024 15:52:31: Pizza: Tonno, Toppings: Uien, Pepers, Prijs: 9,05
+13-6-2024 15:52:31: Pizza: Margherita, Toppings: , Prijs: 5,00
+13-6-2024 15:52:31: Pizza: Margherita, Toppings: Extra Cheese, Mushrooms, Uien, Pepers, Prijs: 8,55
+13-6-2024 15:52:31: Totale Prijs: 22,60
+13-6-2024 15:52:31: Bevestiging naar client verzonden.
+13-6-2024 15:53:14: UDP Server gestart.
+13-6-2024 15:54:54: UDP Server gestart.
+13-6-2024 15:56:11: Ontvangen 3800 bytes.
+13-6-2024 15:56:11: Bestelling ontvangen: Myrdin, 4 pizza(s)
+13-6-2024 15:56:11: Pizza: Diablo, Toppings: Mushrooms, Prijs: 8,75
+13-6-2024 15:56:11: Pizza: Tonno, Toppings: , Prijs: 7,50
+13-6-2024 15:56:11: Pizza: Pepperoni, Toppings: Extra Cheese, Mushrooms, Uien, Pepers, Prijs: 10,55
+13-6-2024 15:56:11: Pizza: Pepperoni, Toppings: Pepers, Extra Cheese, Prijs: 9,40
+13-6-2024 15:56:11: Totale Prijs: 36,20
+13-6-2024 15:56:11: Bevestiging naar client verzonden.
