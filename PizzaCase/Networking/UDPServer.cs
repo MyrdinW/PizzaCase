@@ -1,19 +1,15 @@
-﻿using PizzaCase.Security;
+﻿using PizzaCase.Pizza;
+using PizzaCase.Security;
 using System;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
-using Newtonsoft.Json;
-using PizzaCase.Pizza;
-using PizzaCase.Serialization;
-using System.Collections.Generic;
 
 namespace PizzaCase.Networking
 {
     public class UDPServer
     {
-        private static UDPServer instance;
-        private static readonly object lockObj = new object();
+        private static UDPServer _instance;
         private readonly int port;
 
         private UDPServer(int port)
@@ -23,17 +19,11 @@ namespace PizzaCase.Networking
 
         public static UDPServer Instance(int port)
         {
-            if (instance == null)
+            if (_instance == null)
             {
-                lock (lockObj)
-                {
-                    if (instance == null)
-                    {
-                        instance = new UDPServer(port);
-                    }
-                }
+                _instance = new UDPServer(port);
             }
-            return instance;
+            return _instance;
         }
 
         public void Start()
@@ -41,39 +31,24 @@ namespace PizzaCase.Networking
             UdpClient listener = new UdpClient(port);
             IPEndPoint groupEP = new IPEndPoint(IPAddress.Any, port);
             Console.WriteLine("UDP Server gestart.");
-            SecureLogger.Log("UDP Server gestart.");
 
             try
             {
                 while (true)
                 {
-                    byte[] buffer = listener.Receive(ref groupEP);
-                    Console.WriteLine($"Ontvangen {buffer.Length} bytes.");
-                    SecureLogger.Log($"Ontvangen {buffer.Length} bytes.");
-
-                    string encryptedMessage = Encoding.UTF8.GetString(buffer, 0, buffer.Length);
+                    byte[] bytes = listener.Receive(ref groupEP);
+                    string encryptedMessage = Encoding.UTF8.GetString(bytes, 0, bytes.Length);
                     string message = Encryption.Decrypt(encryptedMessage);
 
-                    JsonSerializerSettings settings = new JsonSerializerSettings
-                    {
-                        TypeNameHandling = TypeNameHandling.All,
-                        Converters = new List<JsonConverter> { new CustomPizzaConverter() },
-                        ReferenceLoopHandling = ReferenceLoopHandling.Ignore
-                    };
-
-                    Order order = JsonConvert.DeserializeObject<Order>(message, settings);
-                    ProcessOrder(order);
-
-                    // Verzend een bevestiging naar de client
-                    string confirmationMessage = "Bevestiging van server: Bestelling ontvangen en verwerkt.";
-                    byte[] confirmationData = Encoding.UTF8.GetBytes(confirmationMessage);
-                    listener.Send(confirmationData, confirmationData.Length, groupEP);
-                    SecureLogger.Log("Bevestiging naar client verzonden.");
+                    string response = ProcessOrder(message);
+                    string encryptedResponse = Encryption.Encrypt(response);
+                    byte[] responseData = Encoding.UTF8.GetBytes(encryptedResponse);
+                    listener.Send(responseData, responseData.Length, groupEP);
                 }
             }
             catch (Exception ex)
             {
-                SecureLogger.LogError("Er trad een fout op in de server.", ex);
+                Console.WriteLine("Er trad een fout op in de server: " + ex.Message);
             }
             finally
             {
@@ -81,23 +56,79 @@ namespace PizzaCase.Networking
             }
         }
 
-        private void ProcessOrder(Order order)
+        private string ProcessOrder(string order)
         {
-            // Verwerk de bestelling
-            Console.WriteLine($"Bestelling ontvangen: {order.CustomerName}, {order.Pizzas.Count} pizza(s)");
-            Console.WriteLine($"Adres: {order.Address}");
-            Console.WriteLine($"Postcode + Woonplaats: {order.Postcode} {order.City}");
-            Console.WriteLine($"Bestelling geplaatst op: {order.OrderDateTime}");
-            SecureLogger.Log($"Bestelling ontvangen: {order.CustomerName}, {order.Pizzas.Count} pizza(s)");
-            PriceVisitor visitor = new PriceVisitor();
-            foreach (var pizza in order.Pizzas)
+            var lines = order.Split(new[] { '\n' }, StringSplitOptions.RemoveEmptyEntries);
+            string customerName = lines[0];
+            string address = lines[1];
+            string postcode = lines[2];
+            string city = lines[3];
+            DateTime orderDateTime = DateTime.Parse(lines[4]);
+
+            string orderOverview = $"Bestelling ontvangen: {customerName}\nAdres: {address}\nPostcode + Woonplaats: {postcode} {city}\nBestelling geplaatst op: {orderDateTime}\n";
+            double totalPrice = 0;
+
+            int index = 5;
+            while (index < lines.Length)
             {
-                pizza.Accept(visitor);
-                Console.WriteLine($"Pizza: {pizza.Name}, Toppings: {string.Join(", ", pizza.Toppings)}, Prijs: {pizza.Cost.ToString("0.00")}");
-                SecureLogger.Log($"Pizza: {pizza.Name}, Toppings: {string.Join(", ", pizza.Toppings)}, Prijs: {pizza.Cost.ToString("0.00")}");
+                string pizzaType = lines[index++];
+                int quantity = int.Parse(lines[index++]);
+                int toppingsCount = int.Parse(lines[index++]);
+
+                PizzaFactory factory = CreateFactory(pizzaType);
+                for (int i = 0; i < quantity; i++)
+                {
+                    Pizza.Pizza pizza = factory.CreatePizza();
+                    string[] toppings = new string[toppingsCount];
+                    for (int j = 0; j < toppingsCount; j++)
+                    {
+                        toppings[j] = lines[index++];
+                        pizza = AddTopping(pizza, toppings[j]);
+                    }
+
+                    PriceVisitor visitor = new PriceVisitor();
+                    pizza.Accept(visitor);
+                    orderOverview += $"Pizza: {pizza.Name}, Toppings: {string.Join(", ", toppings)}, Prijs: {pizza.Cost}\n";
+                    totalPrice += pizza.Cost;
+                }
             }
-            Console.WriteLine($"Totale Prijs: {visitor.TotalPrice.ToString("0.00")}");
-            SecureLogger.Log($"Totale Prijs: {visitor.TotalPrice.ToString("0.00")}");
+
+            orderOverview += $"Totale Prijs: {totalPrice}";
+            return orderOverview;
+        }
+
+        private Pizza.Pizza AddTopping(Pizza.Pizza pizza, string topping)
+        {
+            switch (topping)
+            {
+                case "Extra Cheese":
+                    return new ExtraCheeseDecorator(pizza);
+                case "Mushrooms":
+                    return new MushroomDecorator(pizza);
+                case "Onions":
+                    return new OnionDecorator(pizza);
+                case "Peppers":
+                    return new PeppersDecorator(pizza);
+                default:
+                    throw new Exception($"Onbekende topping: {topping}");
+            }
+        }
+
+        private PizzaFactory CreateFactory(string pizzaType)
+        {
+            switch (pizzaType)
+            {
+                case "Margherita":
+                    return new MargheritaFactory();
+                case "Pepperoni":
+                    return new PepperoniFactory();
+                case "Tonno":
+                    return new TonnoFactory();
+                case "Diablo":
+                    return new DiabloFactory();
+                default:
+                    throw new Exception($"Onbekend pizza type: {pizzaType}");
+            }
         }
     }
 }

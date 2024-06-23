@@ -1,14 +1,10 @@
-﻿using System.Collections.Generic;
-
-namespace PizzaCase.Pizza
+﻿namespace PizzaCase.Pizza
 {
     public class MushroomDecorator : ToppingDecorator
     {
-        private readonly double toppingPrice = 0.75;
-
         public MushroomDecorator(Pizza pizza) : base(pizza) { }
 
-        public override double Cost => pizza.Cost + toppingPrice;
+        public override double Cost => pizza.Cost + 0.75;
 
         public override string Description => pizza.Description + ", Mushrooms";
 

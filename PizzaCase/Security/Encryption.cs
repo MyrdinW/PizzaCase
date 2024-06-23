@@ -7,51 +7,46 @@ namespace PizzaCase.Security
 {
     public static class Encryption
     {
-        private static readonly byte[] key = Encoding.UTF8.GetBytes("1234567890123456"); // 16 bytes key for AES-128
-        private static readonly byte[] iv = Encoding.UTF8.GetBytes("6543210987654321"); // 16 bytes IV for AES
+        private static readonly byte[] Key = Encoding.UTF8.GetBytes("12345678901234567890123456789012");
+        private static readonly byte[] IV = Encoding.UTF8.GetBytes("1234567890123456");
 
         public static string Encrypt(string plainText)
         {
-            using (Aes aes = Aes.Create())
+            using (Aes aesAlg = Aes.Create())
             {
-                aes.Key = key;
-                aes.IV = iv;
-                aes.Padding = PaddingMode.PKCS7;
+                aesAlg.Key = Key;
+                aesAlg.IV = IV;
 
-                ICryptoTransform encryptor = aes.CreateEncryptor(aes.Key, aes.IV);
-                using (MemoryStream ms = new MemoryStream())
+                ICryptoTransform encryptor = aesAlg.CreateEncryptor(aesAlg.Key, aesAlg.IV);
+
+                using (MemoryStream msEncrypt = new MemoryStream())
                 {
-                    using (CryptoStream cs = new CryptoStream(ms, encryptor, CryptoStreamMode.Write))
+                    using (CryptoStream csEncrypt = new CryptoStream(msEncrypt, encryptor, CryptoStreamMode.Write))
+                    using (StreamWriter swEncrypt = new StreamWriter(csEncrypt))
                     {
-                        using (StreamWriter sw = new StreamWriter(cs))
-                        {
-                            sw.Write(plainText);
-                        }
+                        swEncrypt.Write(plainText);
                     }
-                    return Convert.ToBase64String(ms.ToArray());
+                    return Convert.ToBase64String(msEncrypt.ToArray());
                 }
             }
         }
 
         public static string Decrypt(string cipherText)
         {
-            byte[] buffer = Convert.FromBase64String(cipherText);
-            using (Aes aes = Aes.Create())
-            {
-                aes.Key = key;
-                aes.IV = iv;
-                aes.Padding = PaddingMode.PKCS7;
+            byte[] cipherBytes = Convert.FromBase64String(cipherText);
 
-                ICryptoTransform decryptor = aes.CreateDecryptor(aes.Key, aes.IV);
-                using (MemoryStream ms = new MemoryStream(buffer))
+            using (Aes aesAlg = Aes.Create())
+            {
+                aesAlg.Key = Key;
+                aesAlg.IV = IV;
+
+                ICryptoTransform decryptor = aesAlg.CreateDecryptor(aesAlg.Key, aesAlg.IV);
+
+                using (MemoryStream msDecrypt = new MemoryStream(cipherBytes))
+                using (CryptoStream csDecrypt = new CryptoStream(msDecrypt, decryptor, CryptoStreamMode.Read))
+                using (StreamReader srDecrypt = new StreamReader(csDecrypt))
                 {
-                    using (CryptoStream cs = new CryptoStream(ms, decryptor, CryptoStreamMode.Read))
-                    {
-                        using (StreamReader sr = new StreamReader(cs))
-                        {
-                            return sr.ReadToEnd();
-                        }
-                    }
+                    return srDecrypt.ReadToEnd();
                 }
             }
         }

@@ -1,11 +1,11 @@
-﻿using System.Collections.Generic;
-
-namespace PizzaCase.Pizza
+﻿namespace PizzaCase.Pizza
 {
     public class MargheritaPizza : Pizza
     {
         public override string Name => "Margherita";
-        public override double Cost => 5.00; // Basisprijs
+
+        public override double Cost => 5.00;
+
         public override string Description => "Margherita Pizza";
 
         public override void Accept(IVisitor visitor)

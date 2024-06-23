@@ -11,7 +11,7 @@
 
         public void Visit(ToppingDecorator toppingDecorator)
         {
-            TotalPrice += toppingDecorator.Cost;
+            TotalPrice += toppingDecorator.Cost - toppingDecorator.GetBasePizza().Cost;
         }
     }
 }

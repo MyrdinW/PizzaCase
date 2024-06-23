@@ -139,3 +139,1182 @@
 13-6-2024 15:56:11: Pizza: Pepperoni, Toppings: Pepers, Extra Cheese, Prijs: 9,40
 13-6-2024 15:56:11: Totale Prijs: 36,20
 13-6-2024 15:56:11: Bevestiging naar client verzonden.
+17-6-2024 10:44:59: TCP Server gestart.
+17-6-2024 10:45:16: Client verbonden.
+17-6-2024 10:45:16: Bestelling ontvangen: test, 1 pizza(s)
+17-6-2024 10:45:16: Pizza: Margherita, Toppings: , Prijs: 5,00
+17-6-2024 10:45:16: Totale Prijs: 5,00
+17-6-2024 10:45:16: Bevestiging naar client verzonden.
+17-6-2024 12:45:29: TCP Server gestart.
+17-6-2024 12:48:29: TCP Server gestart.
+17-6-2024 12:48:43: Client verbonden.
+17-6-2024 12:48:43: Bestelling ontvangen: 1, 1 pizza(s)
+17-6-2024 12:48:43: Pizza: Pepperoni, Toppings: , Prijs: 7,00
+17-6-2024 12:48:43: Totale Prijs: 7,00
+17-6-2024 12:48:43: Bevestiging naar client verzonden.
+21-6-2024 10:12:45: TCP Server gestart.
+21-6-2024 10:13:24: Client verbonden.
+21-6-2024 10:13:24: Bestelling ontvangen: 1, 1 pizza(s)
+21-6-2024 10:13:24: Pizza: Margherita, Toppings: , Prijs: € 5,00
+21-6-2024 10:13:24: Totale Prijs: € 5,00
+21-6-2024 10:28:42: TCP Server gestart.
+21-6-2024 10:29:02: Client verbonden.
+21-6-2024 10:29:02: Bestelling ontvangen: 1, 2 pizza(s)
+21-6-2024 10:29:02: Pizza: Margherita, Toppings: Mushrooms, Prijs: € 5,75
+21-6-2024 10:29:02: Pizza: Margherita, Toppings: Mushrooms, Extra Cheese, Prijs: € 7,00
+21-6-2024 10:29:02: Totale Prijs: € 12,75
+21-6-2024 10:33:16: TCP Server gestart.
+21-6-2024 10:33:34: Client verbonden.
+21-6-2024 10:33:34: Bestelling ontvangen: 1, 2 pizza(s)
+21-6-2024 10:33:34: Pizza: Margherita, Toppings: Extra Cheese, Prijs: € 6,25
+21-6-2024 10:33:34: Pizza: Margherita, Toppings: Extra Cheese, Mushrooms, Prijs: € 7,00
+21-6-2024 10:33:34: Totale Prijs: € 13,25
+21-6-2024 10:37:43: UDP Server gestart.
+21-6-2024 10:38:09: Ontvangen 108 bytes.
+21-6-2024 10:38:09: ERROR: Er trad een fout op in de server. - Exception: De index ligt buiten de matrixgrenzen.
+21-6-2024 10:38:31: TCP Server gestart.
+21-6-2024 10:38:52: Client verbonden.
+21-6-2024 10:38:52: ERROR: Er trad een fout op in de server. - Exception: De index ligt buiten de matrixgrenzen.
+21-6-2024 10:41:11: TCP Server gestart.
+21-6-2024 10:41:35: Client verbonden.
+21-6-2024 10:41:35: ERROR: Er trad een fout op in de server. - Exception: De index ligt buiten de matrixgrenzen.
+21-6-2024 10:43:39: TCP Server gestart.
+21-6-2024 10:44:00: Client verbonden.
+21-6-2024 10:44:00: Bestelling ontvangen: 1, 1 pizza(s)
+21-6-2024 10:44:00: Pizza: Margherita, Toppings: , Prijs: € 5,00
+21-6-2024 10:44:00: Totale Prijs: € 5,00
+21-6-2024 10:44:00: Bevestiging naar client verzonden.
+21-6-2024 10:47:22: UDP Server gestart.
+21-6-2024 10:47:50: Ontvangen 108 bytes.
+21-6-2024 10:47:50: Bestelling ontvangen: Myrdin, 2 pizza(s)
+21-6-2024 10:47:50: Pizza: Margherita, Toppings: , Prijs: € 5,00
+21-6-2024 10:47:50: Pizza: Pepperoni, Toppings: , Prijs: € 7,00
+21-6-2024 10:47:50: Totale Prijs: € 12,00
+21-6-2024 10:47:50: Bevestiging naar client verzonden.
+21-6-2024 10:48:37: TCP Server gestart.
+21-6-2024 10:49:09: TCP Server gestart.
+21-6-2024 10:49:29: Client verbonden.
+21-6-2024 10:49:29: Bestelling ontvangen: Myrdin, 1 pizza(s)
+21-6-2024 10:49:29: Pizza: Diablo, Toppings: , Prijs: € 8,00
+21-6-2024 10:49:29: Totale Prijs: € 8,00
+21-6-2024 10:49:29: Bevestiging naar client verzonden.
+21-6-2024 10:57:36: TCP Server gestart.
+21-6-2024 10:57:51: Client verbonden.
+21-6-2024 10:57:51: Bestelling ontvangen: 1, 1 pizza(s)
+21-6-2024 10:57:51: Pizza: Diablo, Toppings: , Prijs: € 8,00
+21-6-2024 10:57:51: Totale Prijs: € 8,00
+21-6-2024 10:57:51: Bevestiging naar client verzonden.
+21-6-2024 11:06:41: UDP Server gestart.
+21-6-2024 11:06:57: Ontvangen 88 bytes.
+21-6-2024 11:06:57: Bestelling ontvangen: Myrdin, 1 pizza(s)
+21-6-2024 11:06:57: Pizza: Diablo, Toppings: , Prijs: € 8,00
+21-6-2024 11:06:57: Totale Prijs: € 8,00
+21-6-2024 11:06:57: Bevestiging naar client verzonden.
+21-6-2024 11:48:32: TCP Server gestart.
+21-6-2024 11:48:46: Client verbonden.
+21-6-2024 11:48:46: Bestelling ontvangen: 1, 1 pizza(s)
+21-6-2024 11:48:46: Pizza: Margherita, Toppings: , Prijs: € 5,00
+21-6-2024 11:48:46: Totale Prijs: € 5,00
+21-6-2024 11:48:46: Bevestiging naar client verzonden.
+21-6-2024 11:49:11: UDP Server gestart.
+21-6-2024 11:52:12: TCP Server gestart.
+21-6-2024 11:52:50: Client verbonden.
+21-6-2024 11:52:50: Bestelling ontvangen: Myrdin, 1 pizza(s)
+21-6-2024 11:52:50: Pizza: Tonno, Toppings: Extra Cheese, Prijs: € 8,75
+21-6-2024 11:52:50: Totale Prijs: € 8,75
+21-6-2024 11:52:50: Bevestiging naar client verzonden.
+21-6-2024 11:53:00: UDP Server gestart.
+21-6-2024 11:53:39: Ontvangen 108 bytes.
+21-6-2024 11:53:39: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Pepers
+21-6-2024 11:54:01: TCP Server gestart.
+21-6-2024 11:54:19: Client verbonden.
+21-6-2024 11:54:19: Bestelling ontvangen: Myrdin, 1 pizza(s)
+21-6-2024 11:54:19: Pizza: Margherita, Toppings: , Prijs: € 5,00
+21-6-2024 11:54:19: Totale Prijs: € 5,00
+21-6-2024 11:54:19: Bevestiging naar client verzonden.
+21-6-2024 11:54:43: UDP Server gestart.
+21-6-2024 11:54:59: Ontvangen 108 bytes.
+21-6-2024 11:54:59: Bestelling ontvangen: Myrdin, 1 pizza(s)
+21-6-2024 11:54:59: Pizza: Margherita, Toppings: , Prijs: € 5,00
+21-6-2024 11:54:59: Totale Prijs: € 5,00
+21-6-2024 11:54:59: Bevestiging naar client verzonden.
+21-6-2024 11:55:10: UDP Server gestart.
+21-6-2024 11:55:31: Ontvangen 88 bytes.
+21-6-2024 11:55:31: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Pepers
+21-6-2024 11:55:47: TCP Server gestart.
+21-6-2024 11:56:01: Client verbonden.
+21-6-2024 11:56:01: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Pepers
+21-6-2024 12:28:41: TCP Server gestart.
+21-6-2024 12:29:05: Ontvangen 108 bytes.
+21-6-2024 12:29:05: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 12:29:31: UDP Server gestart.
+21-6-2024 12:29:48: Ontvangen 64 bytes.
+21-6-2024 12:29:48: Bestelling ontvangen: Myrdin, 1 pizza(s)
+21-6-2024 12:29:48: Pizza: Tonno, Toppings: , Prijs: 7,5
+21-6-2024 12:29:48: Totale Prijs: 7,5
+21-6-2024 12:29:48: Bevestiging naar client verzonden.
+21-6-2024 12:33:52: TCP Server gestart.
+21-6-2024 12:34:09: Ontvangen 88 bytes.
+21-6-2024 12:34:09: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 12:39:22: TCP Server gestart.
+21-6-2024 12:39:37: Ontvangen 88 bytes.
+21-6-2024 12:39:37: Ontvangen versleuteld bericht:
+zz5PLRYOl1qOHwCr0iuxONHRo8nQ5mQfKIOjRmPQKMrzRqDQqfsbpwsylu+AQBKcj/W0Ro2Zsmquyhg18WegXA==
+21-6-2024 12:39:37: Ontvangen ontsleuteld bericht:
+M
+M
+1234MM
+M
+21-6-2024 12:39:37
+Margherita
+1
+Uien
+21-6-2024 12:39:37: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 12:42:39: UDP Server gestart.
+21-6-2024 12:42:51: Ontvangen 64 bytes.
+21-6-2024 12:42:51: Ontvangen versleuteld bericht:
+ENa8Uwngqi8eB/WFce5ptUSY4EA2XlJFa7kVUbjSCWfk0GaNV+zvvRq2YhYLW3Gm
+21-6-2024 12:42:51: Ontvangen ontsleuteld bericht:
+M
+M
+1234AA
+M
+21-6-2024 12:42:51
+Margherita
+0
+21-6-2024 12:42:51: Bestelling ontvangen: M, 1 pizza(s)
+21-6-2024 12:42:51: Pizza: Margherita, Toppings: , Prijs: 5
+21-6-2024 12:42:51: Totale Prijs: 5
+21-6-2024 12:42:51: Bevestiging naar client verzonden.
+21-6-2024 12:43:00: UDP Server gestart.
+21-6-2024 12:43:12: Ontvangen 88 bytes.
+21-6-2024 12:43:12: Ontvangen versleuteld bericht:
+zz5PLRYOl1qOHwCr0iuxON3qgi1o4Nyg52rVpW8fo4Pv/x4dHc+LzvMD2dyizHW5P/G1s0PYwiq8/Dw48AK22Q==
+21-6-2024 12:43:12: Ontvangen ontsleuteld bericht:
+M
+M
+1234MM
+M
+21-6-2024 12:43:12
+Margherita
+1
+Uien
+21-6-2024 12:43:12: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 12:43:27: TCP Server gestart.
+21-6-2024 12:43:39: Ontvangen 88 bytes.
+21-6-2024 12:43:39: Ontvangen versleuteld bericht:
+zz5PLRYOl1qOHwCr0iuxOLkQyVU1EFY5ayZkcxzr+d+HAg0c70+4B9wLtaUbRm+PyAHsVdPAlrKOBKQmIGpxgQ==
+21-6-2024 12:43:39: Ontvangen ontsleuteld bericht:
+M
+M
+1234MM
+M
+21-6-2024 12:43:39
+Margherita
+1
+Uien
+21-6-2024 12:43:39: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 12:43:51: TCP Server gestart.
+21-6-2024 12:44:00: Ontvangen 64 bytes.
+21-6-2024 12:44:00: Ontvangen versleuteld bericht:
+zz5PLRYOl1qOHwCr0iuxONXPc3R24XIN7I6IEB3sjUkzfQXSBmqOKNnSvD7dA0IO
+21-6-2024 12:44:00: Ontvangen ontsleuteld bericht:
+M
+M
+1234MM
+M
+21-6-2024 12:44:00
+Margherita
+0
+21-6-2024 12:44:00: Bestelling ontvangen: M, 1 pizza(s)
+21-6-2024 12:44:00: Pizza: Margherita, Toppings: , Prijs: 5
+21-6-2024 12:44:00: Totale Prijs: 5
+21-6-2024 12:44:00: Bevestiging naar client verzonden.
+21-6-2024 12:49:24: TCP Server gestart.
+21-6-2024 12:49:37: Ontvangen 88 bytes.
+21-6-2024 12:49:37: Ontvangen versleuteld bericht:
+zz5PLRYOl1qOHwCr0iuxOPPsqvNBdixRdccSQPceuigMF2GHDz9pHZCYdazrnmX7qvQ4St+WB6gFoGNAlsOpmA==
+21-6-2024 12:49:37: Ontvangen ontsleuteld bericht:
+M
+M
+1234MM
+M
+21-06-2024 12:49:37
+Margherita
+1
+Uien
+21-6-2024 12:49:37: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 13:00:08: TCP Server gestart.
+21-6-2024 13:00:20: Ontvangen 64 bytes.
+21-6-2024 13:00:20: Ontvangen versleuteld bericht:
+zz5PLRYOl1qOHwCr0iuxOFubcQcjF0Ul9X5XsN7kKZKSlct7pph/iiKbbA5W88ny
+21-6-2024 13:00:20: Ontvangen ontsleuteld bericht:
+M
+M
+1234MM
+M
+21-06-2024 13:00:20
+Diablo
+1
+Uien
+21-6-2024 13:00:20: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 13:01:09: UDP Server gestart.
+21-6-2024 13:01:35: Ontvangen 64 bytes.
+21-6-2024 13:01:35: Ontvangen versleuteld bericht:
+zz5PLRYOl1qOHwCr0iuxOK6JibiubnReE1J2kmxyLSuKoR7GOoXCMw3Mzih+zT0H
+21-6-2024 13:01:35: Ontvangen ontsleuteld bericht:
+M
+M
+1234MM
+M
+21-06-2024 13:01:35
+Diablo
+1
+Uien
+21-6-2024 13:01:35: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 13:09:23: TCP Server gestart.
+21-6-2024 13:09:34: Ontvangen 64 bytes.
+21-6-2024 13:09:34: Ontvangen versleuteld bericht:
+zz5PLRYOl1qOHwCr0iuxONi3wgRdv/a1pVhiuo+SAKVuXk0ij5YemkXRuyrSqyrY
+21-6-2024 13:09:34: Ontvangen ontsleuteld bericht:
+M
+M
+1234MM
+M
+21-06-2024 13:09:34
+Margherita
+0
+21-6-2024 13:09:34: Bestelling ontvangen: M, 1 pizza(s)
+21-6-2024 13:09:34: Pizza: Margherita, Toppings: , Prijs: 5
+21-6-2024 13:09:34: Totale Prijs: 5
+21-6-2024 13:09:34: Bevestiging naar client verzonden.
+21-6-2024 13:09:51: TCP Server gestart.
+21-6-2024 13:10:06: Ontvangen 64 bytes.
+21-6-2024 13:10:06: Ontvangen versleuteld bericht:
+zz5PLRYOl1qOHwCr0iuxOPKqS3jDpXak0/yrpghppYoPJirXIInF7gIjyHmyOMkf
+21-6-2024 13:10:06: Ontvangen ontsleuteld bericht:
+M
+M
+1234MM
+M
+21-06-2024 13:10:06
+Diablo
+1
+Uien
+21-6-2024 13:10:06: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 13:10:32: UDP Server gestart.
+21-6-2024 13:10:45: Ontvangen 88 bytes.
+21-6-2024 13:10:45: Ontvangen versleuteld bericht:
+zz5PLRYOl1qOHwCr0iuxOGwSkNlGK9uh0hxnL/6H6ayIY5cIqqACPxf7p3EF3KUCNgmWIPkTpMfSbiBtILpVKg==
+21-6-2024 13:10:45: Ontvangen ontsleuteld bericht:
+M
+M
+1234MM
+M
+21-06-2024 13:10:45
+Diablo
+1
+Pepers
+21-6-2024 13:10:45: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Pepers
+21-6-2024 13:17:40: TCP Server gestart.
+21-6-2024 13:17:54: Ontvangen 64 bytes.
+21-6-2024 13:17:54: Ontvangen versleuteld bericht:
+zz5PLRYOl1qOHwCr0iuxOGIUdPFuF1jn15y5rfuHmbvcV+/JQnKHdpaY0W1w7UGT
+21-6-2024 13:17:54: Ontvangen ontsleuteld bericht:
+M
+M
+1234MM
+M
+21-6-2024 13:17:54
+Diablo
+1
+Pepers
+21-6-2024 13:17:54: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Pepers
+21-6-2024 13:29:25: TCP Server gestart.
+21-6-2024 13:29:37: Ontvangen 64 bytes.
+21-6-2024 13:29:37: Ontvangen versleuteld bericht:
+DYc9xYWUWt5q6HYynUiXsDE/Gg1AULsKw17JbgVHToPA3gJELQqLWTkivHOvo7Fv
+21-6-2024 13:29:37: Ontvangen ontsleuteld bericht:
+M
+M
+1234MM
+m
+21-6-2024 13:29:37
+Margherita
+0
+21-6-2024 13:29:37: Bestelling ontvangen: M, 1 pizza(s)
+21-6-2024 13:29:37: Pizza: Margherita, Toppings: , Prijs: 5
+21-6-2024 13:29:37: Totale Prijs: 5
+21-6-2024 13:29:37: Bevestiging naar client verzonden.
+21-6-2024 13:29:46: TCP Server gestart.
+21-6-2024 13:30:05: Ontvangen 88 bytes.
+21-6-2024 13:30:05: Ontvangen versleuteld bericht:
+zz5PLRYOl1qOHwCr0iuxOOVDLk05WtYtoV15EPUiS0O3Y02lpysPhuAmbePcSnlrQimPTu9lAnFaDse2VyjV3g==
+21-6-2024 13:30:05: Ontvangen ontsleuteld bericht:
+M
+M
+1234MM
+M
+21-6-2024 13:30:05
+Margherita
+1
+Extra Cheese
+21-6-2024 13:30:05: Bestelling ontvangen: M, 1 pizza(s)
+21-6-2024 13:30:05: Pizza: Margherita, Toppings: Extra Cheese, Prijs: 6,25
+21-6-2024 13:30:05: Totale Prijs: 6,25
+21-6-2024 13:30:05: Bevestiging naar client verzonden.
+21-6-2024 13:32:51: TCP Server gestart.
+21-6-2024 13:33:04: Ontvangen 88 bytes.
+21-6-2024 13:33:04: Ontvangen versleuteld bericht:
+zBhKMFU3Q2rPn8aj16AX0vsWWuKesSgb4xzQF2osaX/rnqwCWPAofcxo+G+219Y7+HRFF7YXoQzH3ttOfsRg8A==
+21-6-2024 13:33:04: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 13:33:04
+Margherita
+1
+Uien
+21-6-2024 13:33:04: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 13:33:47: UDP Server gestart.
+21-6-2024 13:34:01: Ontvangen 88 bytes.
+21-6-2024 13:34:01: Ontvangen versleuteld bericht:
+qS1v1QcvOPADu7SipZCn141HQLhGYH/nzXexv4dVNVT7cNYPaOnCM0fgzeH4E2YdrhTQGgjenJiw9s5M3MHh9Q==
+21-6-2024 13:34:01: Ontvangen ontsleuteld bericht:
+M
+M
+1234MM
+m
+21-6-2024 13:34:01
+Margherita
+1
+Uien
+21-6-2024 13:34:01: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 13:34:10: TCP Server gestart.
+21-6-2024 13:34:25: Ontvangen 64 bytes.
+21-6-2024 13:34:25: Ontvangen versleuteld bericht:
+snS6KJQLjVyJDFvjgYNqQABzEnfDRIzZiMaPkgQnqtnnaOhIpLbcR6JFmcBXRKDc
+21-6-2024 13:34:25: Ontvangen ontsleuteld bericht:
+M
+M
+1234MM
+M
+21-6-2024 13:34:25
+Margherita
+0
+21-6-2024 13:34:25: Bestelling ontvangen: M, 1 pizza(s)
+21-6-2024 13:34:25: Pizza: Margherita, Toppings: , Prijs: 5
+21-6-2024 13:34:25: Totale Prijs: 5
+21-6-2024 13:34:25: Bevestiging naar client verzonden.
+21-6-2024 13:35:12: TCP Server gestart.
+21-6-2024 13:35:27: Ontvangen 88 bytes.
+21-6-2024 13:35:27: Ontvangen versleuteld bericht:
+snS6KJQLjVyJDFvjgYNqQEoVosSOAEHccg64mRNolxF8Shay2f7qV0GLqGh1YX6Z5N4Srz3QXraOCbaPrx7RDg==
+21-6-2024 13:35:27: Ontvangen ontsleuteld bericht:
+M
+M
+1234MM
+M
+21-6-2024 13:35:27
+Margherita
+1
+Pepers
+21-6-2024 13:35:27: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Pepers
+21-6-2024 13:35:46: TCP Server gestart.
+21-6-2024 13:35:59: Ontvangen 64 bytes.
+21-6-2024 13:35:59: Ontvangen versleuteld bericht:
+zBhKMFU3Q2rPn8aj16AX0sQO1jX+wRsTESTRE9aEsXqoM5aHTbAyfbwB9ibSfZYX
+21-6-2024 13:35:59: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 13:35:59
+Margherita
+0
+21-6-2024 13:35:59: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 13:35:59: Pizza: Margherita, Toppings: , Prijs: 5
+21-6-2024 13:35:59: Totale Prijs: 5
+21-6-2024 13:35:59: Bevestiging naar client verzonden.
+21-6-2024 13:38:36: TCP Server gestart.
+21-6-2024 13:38:49: Ontvangen 64 bytes.
+21-6-2024 13:38:49: Ontvangen versleuteld bericht:
+zBhKMFU3Q2rPn8aj16AX0i1dqGv8Kf/mrQQSplTiX45F6mf3PvBm5EA6CeBxPnL9
+21-6-2024 13:38:49: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-06-2024 13:38:49
+Tonno
+1
+Pepers
+21-6-2024 13:38:49: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Pepers
+21-6-2024 13:39:28: TCP Server gestart.
+21-6-2024 13:39:38: Ontvangen 64 bytes.
+21-6-2024 13:39:38: Ontvangen versleuteld bericht:
+snS6KJQLjVyJDFvjgYNqQI4RAwiKZ+HSGDMSD0SaS85iVeqf5JO2kr30GpEe1Pme
+21-6-2024 13:39:38: Ontvangen ontsleuteld bericht:
+M
+M
+1234MM
+M
+21-06-2024 13:39:38
+Tonno
+0
+21-6-2024 13:39:38: Bestelling ontvangen: M, 1 pizza(s)
+21-6-2024 13:39:38: Pizza: Tonno, Toppings: , Prijs: 7,5
+21-6-2024 13:39:38: Totale Prijs: 7,5
+21-6-2024 13:39:38: Bevestiging naar client verzonden.
+21-6-2024 13:43:05: TCP Server gestart.
+21-6-2024 13:43:16: Ontvangen 64 bytes.
+21-6-2024 13:43:16: Ontvangen versleuteld bericht:
+snS6KJQLjVyJDFvjgYNqQI2hzq1TNByyFJU+F6wMCQe4/35/79ngbghRWS0o/fRn
+21-6-2024 13:43:16: Ontvangen ontsleuteld bericht:
+M
+M
+1234MM
+M
+21-06-2024 13:43:16
+Diablo
+1
+Uien
+21-6-2024 13:43:16: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 13:44:15: TCP Server gestart.
+21-6-2024 13:44:26: Ontvangen 64 bytes.
+21-6-2024 13:44:26: Ontvangen versleuteld bericht:
+zBhKMFU3Q2rPn8aj16AX0mPVeFTDD+qYEDe7ynauD4WKu5ic4fe+4Nc+6BCNPdNT
+21-6-2024 13:44:26: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-06-2024 13:44:26
+Diablo
+0
+21-6-2024 13:44:26: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 13:44:26: Pizza: Diablo, Toppings: , Prijs: 8
+21-6-2024 13:44:26: Totale Prijs: 8
+21-6-2024 13:44:26: Bevestiging naar client verzonden.
+21-6-2024 13:51:48: TCP Server gestart.
+21-6-2024 13:52:03: Ontvangen 88 bytes.
+21-6-2024 13:52:03: Ontvangen versleuteld bericht:
+zBhKMFU3Q2rPn8aj16AX0gqiqXKbN1YS5eHDgfz4ScSF77BHQuSHUnyYL8Gi2ZYg3KlESEa0ZM/i+2Duki1/6Q==
+21-6-2024 13:52:03: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-06-2024 13:52:03
+Margherita
+1
+Peppers
+21-6-2024 13:52:03: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 13:52:03: Pizza: Margherita, Toppings: Peppers, Prijs: 6,15
+21-6-2024 13:52:03: Totale Prijs: 6,15
+21-6-2024 13:52:03: Bevestiging naar client verzonden.
+21-6-2024 13:52:19: TCP Server gestart.
+21-6-2024 13:52:35: Ontvangen 88 bytes.
+21-6-2024 13:52:35: Ontvangen versleuteld bericht:
+snS6KJQLjVyJDFvjgYNqQFGukX6oZCuazV66ipII6RwkwSPl5KYdThu9S2AE6y+JcpfgeD6P5gvafNnHF6Ef/g==
+21-6-2024 13:52:35: Ontvangen ontsleuteld bericht:
+M
+M
+1234MM
+M
+21-06-2024 13:52:35
+Margherita
+1
+Mushrooms
+21-6-2024 13:52:35: Bestelling ontvangen: M, 1 pizza(s)
+21-6-2024 13:52:35: Pizza: Margherita, Toppings: Mushrooms, Prijs: 5,75
+21-6-2024 13:52:35: Totale Prijs: 5,75
+21-6-2024 13:52:35: Bevestiging naar client verzonden.
+21-6-2024 13:52:49: UDP Server gestart.
+21-6-2024 13:53:03: Ontvangen 64 bytes.
+21-6-2024 13:53:03: Ontvangen versleuteld bericht:
+snS6KJQLjVyJDFvjgYNqQMooFP5VSMF3bgrrlj/jG8A8zgugHRlbvy3mRhq1hDN6
+21-6-2024 13:53:03: Ontvangen ontsleuteld bericht:
+M
+M
+1234MM
+M
+21-06-2024 13:53:03
+Tonno
+1
+Uien
+21-6-2024 13:53:03: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 13:53:18: TCP Server gestart.
+21-6-2024 13:53:28: Ontvangen 64 bytes.
+21-6-2024 13:53:28: Ontvangen versleuteld bericht:
+zBhKMFU3Q2rPn8aj16AX0gOnOCnCYKRS5eYx8AAfkjG44xEBMvxeO4xVflQdAx49
+21-6-2024 13:53:28: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-06-2024 13:53:28
+Diablo
+0
+21-6-2024 13:53:28: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 13:53:28: Pizza: Diablo, Toppings: , Prijs: 8
+21-6-2024 13:53:28: Totale Prijs: 8
+21-6-2024 13:53:28: Bevestiging naar client verzonden.
+21-6-2024 13:57:43: TCP Server gestart.
+21-6-2024 13:58:10: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 13:59:01: TCP Server gestart.
+21-6-2024 13:59:23: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 13:59:37: TCP Server gestart.
+21-6-2024 13:59:47: Bestelling ontvangen: M, 1 pizza(s)
+21-6-2024 13:59:47: Pizza: Margherita, Toppings: , Prijs: 5
+21-6-2024 13:59:47: Totale Prijs: 5
+21-6-2024 14:00:12: TCP Server gestart.
+21-6-2024 14:00:21: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 14:00:21: Pizza: Margherita, Toppings: , Prijs: 5
+21-6-2024 14:00:21: Totale Prijs: 5
+21-6-2024 14:01:35: TCP Server gestart.
+21-6-2024 14:01:46: Ontvangen 64 bytes.
+21-6-2024 14:01:46: Ontvangen versleuteld bericht:
+zBhKMFU3Q2rPn8aj16AX0lO0JLoz/fxc//jEwFNA+JO1SvocRMn10H+/djOMyw28
+21-6-2024 14:01:46: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-06-2024 14:01:46
+Tonno
+0
+21-6-2024 14:01:46: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 14:01:46: Pizza: Tonno, Toppings: , Prijs: 7,5
+21-6-2024 14:01:46: Totale Prijs: 7,5
+21-6-2024 14:01:46: Bevestiging naar client verzonden.
+21-6-2024 14:01:55: TCP Server gestart.
+21-6-2024 14:02:10: Ontvangen 88 bytes.
+21-6-2024 14:02:10: Ontvangen versleuteld bericht:
+zBhKMFU3Q2rPn8aj16AX0iAYXhrqf80JXIpdUah29IvKeXEk7buiKN3SgxgfFrFTMHGHfNP3WJk2/wu6RncdIg==
+21-6-2024 14:02:10: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-06-2024 14:02:10
+Tonno
+0
+Diablo
+1
+Uien
+21-6-2024 14:02:10: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 14:10:02: TCP Server gestart.
+21-6-2024 14:10:12: Ontvangen 64 bytes.
+21-6-2024 14:10:12: Ontvangen versleuteld bericht:
+cMR+xIVojiirp8WW2xrHPOEZP+wt1ACuzFBSfYCmxYXff+Quq+VcE74GE4PkugNQ
+21-6-2024 14:10:12: Ontvangen ontsleuteld bericht:
+M
+M
+1234mm
+m
+21-6-2024 14:10:12
+Margherita
+0
+21-6-2024 14:10:12: Bestelling ontvangen: M, 1 pizza(s)
+21-6-2024 14:10:12: Pizza: Margherita, Toppings: , Prijs: 5
+21-6-2024 14:10:12: Totale Prijs: 5
+21-6-2024 14:10:12: Bevestiging naar client verzonden.
+21-6-2024 14:10:36: TCP Server gestart.
+21-6-2024 14:10:49: Ontvangen 88 bytes.
+21-6-2024 14:10:49: Ontvangen versleuteld bericht:
+zBhKMFU3Q2rPn8aj16AX0gITvsphkQ7BtPZsQ4veCLhtcyFYaaiv67YOI/7VaJZ73lVEaVQIugR5c+RYFg4uyQ==
+21-6-2024 14:10:49: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 14:10:49
+Margherita
+1
+Uien
+21-6-2024 14:10:49: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 14:11:22: UDP Server gestart.
+21-6-2024 14:11:30: Ontvangen 64 bytes.
+21-6-2024 14:11:30: Ontvangen versleuteld bericht:
+zBhKMFU3Q2rPn8aj16AX0iancjfi3y/RKTw40qdKHhy1dwOOtF9Rwy9Fixz5qPAF
+21-6-2024 14:11:30: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 14:11:30
+Diablo
+0
+21-6-2024 14:11:30: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 14:11:30: Pizza: Diablo, Toppings: , Prijs: 8
+21-6-2024 14:11:30: Totale Prijs: 8
+21-6-2024 14:11:30: Bevestiging naar client verzonden.
+21-6-2024 14:11:30: ERROR: Er trad een fout op in de server. - Exception: De externe host heeft een verbinding verbroken
+21-6-2024 14:12:16: TCP Server gestart.
+21-6-2024 14:12:31: Ontvangen 88 bytes.
+21-6-2024 14:12:31: Ontvangen versleuteld bericht:
+zBhKMFU3Q2rPn8aj16AX0jNHAIZxDX+Ay7kBvpZHK5xInLjF5H11mRY4k/kP7EXkilfF4iP9yjcQKwSz8aEk/Q==
+21-6-2024 14:12:31: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 14:12:31
+Margherita
+0
+Diablo
+0
+21-6-2024 14:12:31: Bestelling ontvangen: m, 2 pizza(s)
+21-6-2024 14:12:31: Pizza: Margherita, Toppings: , Prijs: 5
+21-6-2024 14:12:31: Pizza: Diablo, Toppings: , Prijs: 8
+21-6-2024 14:12:31: Totale Prijs: 13
+21-6-2024 14:12:31: Bevestiging naar client verzonden.
+21-6-2024 14:20:46: TCP Server gestart.
+21-6-2024 14:20:58: Ontvangen 88 bytes.
+21-6-2024 14:20:58: Ontvangen versleuteld bericht:
+zBhKMFU3Q2rPn8aj16AX0ht6WSyNhW0QVRx0WP95gBzigHfQEnU0zfI7iutBN+KsBmcf/+d0m12ptGMcobUx8g==
+21-6-2024 14:20:58: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 14:20:58
+Margherita
+1
+Uien
+21-6-2024 14:20:58: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 14:25:08: TCP Server gestart.
+21-6-2024 14:25:25: Ontvangen 64 bytes.
+21-6-2024 14:25:25: Ontvangen versleuteld bericht:
+zBhKMFU3Q2rPn8aj16AX0qsJhcpdB47Na0WA9R7JKPdwJgVHiclNUG0lFhsZzgEH
+21-6-2024 14:25:25: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 14:25:25
+Margherita
+0
+21-6-2024 14:25:25: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 14:25:25: Pizza: Margherita, Toppings: , Prijs: 5
+21-6-2024 14:25:25: Totale Prijs: 5
+21-6-2024 14:25:25: Bevestiging naar client verzonden.
+21-6-2024 14:26:50: TCP Server gestart.
+21-6-2024 14:27:01: Ontvangen 88 bytes.
+21-6-2024 14:27:01: Ontvangen versleuteld bericht:
+zBhKMFU3Q2rPn8aj16AX0kCiBOqo+Nv9iHkEHq9Rs7uiRhZARig/DvuxIWeMXB8o+s9TV/3P1bPG36CBbLKfKA==
+21-6-2024 14:27:01: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 14:27:01
+Margherita
+1
+Uien
+21-6-2024 14:27:01: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 14:27:11: TCP Server gestart.
+21-6-2024 14:27:21: Ontvangen 64 bytes.
+21-6-2024 14:27:21: Ontvangen versleuteld bericht:
+zBhKMFU3Q2rPn8aj16AX0p1DWlxUkexa9vPKP3Ij+WxSL/SNaCYV9aJbvUVtb7tr
+21-6-2024 14:27:21: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 14:27:21
+Margherita
+0
+21-6-2024 14:27:21: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 14:27:21: Pizza: Margherita, Toppings: , Prijs: 5
+21-6-2024 14:27:21: Totale Prijs: 5
+21-6-2024 14:27:21: Bevestiging naar client verzonden.
+21-6-2024 14:27:43: TCP Server gestart.
+21-6-2024 14:27:55: Ontvangen 88 bytes.
+21-6-2024 14:27:55: Ontvangen versleuteld bericht:
+zBhKMFU3Q2rPn8aj16AX0rdUG2c1U57BrtrFu7RIP3qaqHUz5BD2A4ccdE46LyAV2lhxuHMqocaOgqK3P15bvQ==
+21-6-2024 14:27:55: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 14:27:55
+Margherita
+1
+Uien
+21-6-2024 14:27:55: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 14:28:48: TCP Server gestart.
+21-6-2024 14:29:02: Ontvangen 64 bytes.
+21-6-2024 14:29:02: Ontvangen versleuteld bericht:
+17vKUxN83+MWIuYwg8FcxNf/Z2E4WfCjpZOw7tXwh7sd8gp/USbZn0UcHGcGWvjc
+21-6-2024 14:29:02: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 14:29:02
+Margherita
+0
+21-6-2024 14:29:02: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 14:29:02: Pizza: Margherita, Toppings: , Prijs: 5
+21-6-2024 14:29:02: Totale Prijs: 5
+21-6-2024 14:29:02: Bevestiging naar client verzonden.
+21-6-2024 14:32:37: TCP Server gestart.
+21-6-2024 14:32:48: Ontvangen 64 bytes.
+21-6-2024 14:32:48: Ontvangen versleuteld bericht:
+17vKUxN83+MWIuYwg8FcxD4utlVgGHK2jMTKoSsAuU4hwcGyZLwRHt7JpiIq8sM2
+21-6-2024 14:32:48: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 14:32:48
+Margherita
+0
+21-6-2024 14:32:48: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 14:32:48: Pizza: Margherita, Toppings: , Prijs: 5
+21-6-2024 14:32:48: Totale Prijs: 5
+21-6-2024 14:32:48: Bevestiging naar client verzonden.
+21-6-2024 14:34:22: TCP Server gestart.
+21-6-2024 14:34:32: Ontvangen 64 bytes.
+21-6-2024 14:34:32: Ontvangen versleuteld bericht:
+VkDIWgHi7/O0SD3DqNU+s2RnueHtPTawGApDHNwC/NMS9/drgwBrnpNXt+f38Yyy
+21-6-2024 14:34:32: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 14:34:32
+Margherita
+0
+21-6-2024 14:34:32: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 14:34:32: Pizza: Margherita, Toppings: , Prijs: 5
+21-6-2024 14:34:32: Totale Prijs: 5
+21-6-2024 14:34:32: Bevestiging naar client verzonden.
+21-6-2024 14:35:16: TCP Server gestart.
+21-6-2024 14:35:28: Ontvangen 88 bytes.
+21-6-2024 14:35:28: Ontvangen versleuteld bericht:
+VkDIWgHi7/O0SD3DqNU+s44Qdn86qY1/NFmZvsrcWnoN8gmev3Ktn5N5HV/2khLRxXkkK1NX13K5PQPRY36JAg==
+21-6-2024 14:35:28: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 14:35:28
+Margherita
+1
+Uien
+21-6-2024 14:35:28: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 14:35:39: TCP Server gestart.
+21-6-2024 14:35:49: Ontvangen 64 bytes.
+21-6-2024 14:35:49: Ontvangen versleuteld bericht:
+VkDIWgHi7/O0SD3DqNU+s2+rTxBIzc4Gcx/MHYA9r3DP5NH63tGjDxy6GK1Azlgo
+21-6-2024 14:35:49: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 14:35:49
+Tonno
+1
+Peppers
+21-6-2024 14:35:49: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 14:35:49: Pizza: Tonno, Toppings: Peppers, Prijs: 8,65
+21-6-2024 14:35:49: Totale Prijs: 8,65
+21-6-2024 14:35:49: Bevestiging naar client verzonden.
+21-6-2024 14:38:50: TCP Server gestart.
+21-6-2024 14:39:00: Ontvangen 64 bytes.
+21-6-2024 14:39:00: Ontvangen versleuteld bericht:
+VkDIWgHi7/O0SD3DqNU+swHZew4RzD/+Xfr354ZMLyUzsiU5jbwlhvCMeN3kW+tc
+21-6-2024 14:39:00: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 14:39:00
+Margherita
+0
+21-6-2024 14:39:00: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 14:39:00: Pizza: Margherita, Toppings: , Prijs: 5
+21-6-2024 14:39:00: Totale Prijs: 5
+21-6-2024 14:39:00: Bevestiging naar client verzonden.
+21-6-2024 14:40:42: TCP Server gestart.
+21-6-2024 14:40:51: Ontvangen 64 bytes.
+21-6-2024 14:40:51: Ontvangen versleuteld bericht:
+VkDIWgHi7/O0SD3DqNU+s+IE8RkdsuRZjmlpR1Te+XQsPBxE9Uk440MKjHE7U6NX
+21-6-2024 14:40:51: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 14:40:51
+Margherita
+0
+21-6-2024 14:40:51: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 14:40:51: Pizza: Margherita, Toppings: , Prijs: 5
+21-6-2024 14:40:51: Totale Prijs: 5
+21-6-2024 14:40:51: Bevestiging naar client verzonden.
+21-6-2024 14:42:52: TCP Server gestart.
+21-6-2024 14:44:16: TCP Server gestart.
+21-6-2024 14:44:25: Ontvangen 64 bytes.
+21-6-2024 14:44:25: Ontvangen versleuteld bericht:
+zHwQclni8ACjF3MdSpbjOneaUpAxyHwhhDwYgTx26M00VB55tmr7VJyxRfV9iaKs
+21-6-2024 14:44:25: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 14:44:25
+Margherita
+0
+21-6-2024 14:44:25: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 14:44:25: Pizza: Margherita, Toppings: , Prijs: 5
+21-6-2024 14:44:25: Totale Prijs: 5
+21-6-2024 14:44:25: Bevestiging naar client verzonden.
+21-6-2024 14:58:52: TCP Server gestart.
+21-6-2024 15:01:17: TCP Server gestart.
+21-6-2024 15:01:52: TCP Server gestart.
+21-6-2024 15:02:04: Client verbonden.
+21-6-2024 15:02:04: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 15:02:04: Pizza: Margherita, Toppings: , Prijs: 5,00
+21-6-2024 15:02:04: Totale Prijs: 5,00
+21-6-2024 15:02:04: Bevestiging naar client verzonden.
+21-6-2024 15:02:18: TCP Server gestart.
+21-6-2024 15:02:39: Client verbonden.
+21-6-2024 15:02:39: Bestelling ontvangen: m, 2 pizza(s)
+21-6-2024 15:02:39: Pizza: Margherita, Toppings: Peppers, Prijs: 6,15
+21-6-2024 15:02:39: Pizza: Tonno, Toppings: , Prijs: 7,50
+21-6-2024 15:02:39: Totale Prijs: 13,65
+21-6-2024 15:02:39: Bevestiging naar client verzonden.
+21-6-2024 15:03:03: UDP Server gestart.
+21-6-2024 15:03:23: Ontvangen 620 bytes.
+21-6-2024 15:03:23: Bestelling ontvangen: test, 1 pizza(s)
+21-6-2024 15:03:23: Pizza: Tonno, Toppings: , Prijs: 7,50
+21-6-2024 15:03:23: Totale Prijs: 7,50
+21-6-2024 15:03:23: Bevestiging naar client verzonden.
+21-6-2024 15:53:28: TCP Server gestart.
+21-6-2024 15:53:42: Client verbonden.
+21-6-2024 15:53:42: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 15:53:42: Pizza: Margherita, Toppings: Uien, Prijs: 5,40
+21-6-2024 15:53:42: Totale Prijs: 5,40
+21-6-2024 15:53:42: Bevestiging naar client verzonden.
+21-6-2024 15:55:41: TCP Server gestart.
+21-6-2024 15:55:50: Client verbonden.
+21-6-2024 15:55:50: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 15:55:50: Pizza: Margherita, Toppings: , Prijs: 5,00
+21-6-2024 15:55:50: Totale Prijs: 5,00
+21-6-2024 15:55:50: Bevestiging naar client verzonden.
+21-6-2024 15:55:59: TCP Server gestart.
+21-6-2024 15:56:19: Client verbonden.
+21-6-2024 15:56:19: Bestelling ontvangen: m, 2 pizza(s)
+21-6-2024 15:56:19: Pizza: Pepperoni, Toppings: Peppers, Prijs: 8,15
+21-6-2024 15:56:19: Pizza: Diablo, Toppings: , Prijs: 8,00
+21-6-2024 15:56:19: Totale Prijs: 16,15
+21-6-2024 15:56:19: Bevestiging naar client verzonden.
+21-6-2024 15:56:30: UDP Server gestart.
+21-6-2024 15:56:56: Ontvangen 128 bytes.
+21-6-2024 15:56:56: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 15:57:11: TCP Server gestart.
+21-6-2024 15:57:32: Client verbonden.
+21-6-2024 15:57:32: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 15:58:54: UDP Server gestart.
+21-6-2024 15:59:09: Ontvangen 64 bytes.
+21-6-2024 15:59:09: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 15:59:09: Pizza: Tonno, Toppings: , Prijs: 7,50
+21-6-2024 15:59:09: Totale Prijs: 7,50
+21-6-2024 15:59:09: Bevestiging naar client verzonden.
+21-6-2024 16:29:40: TCP Server gestart.
+21-6-2024 16:29:55: Ontvangen 88 bytes.
+21-6-2024 16:29:55: Ontvangen versleuteld bericht:
+7Ixbrmqw8o6RMNDGLvDZzQ9sC+AZCKu05zR2i/phL1b84ObSxrnhef8Ms/M6RE1sO5ShbveAN6HMYdlS2G+HTA==
+21-6-2024 16:29:55: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 16:29:55
+Margherita
+1
+Uien
+21-6-2024 16:29:55: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 16:30:14: TCP Server gestart.
+21-6-2024 16:30:25: Ontvangen 64 bytes.
+21-6-2024 16:30:25: Ontvangen versleuteld bericht:
+7Ixbrmqw8o6RMNDGLvDZzYvgLOseK4vJk9thNZIT3+9JCEv6teGJ7aTXYwZ7OYrh
+21-6-2024 16:30:25: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 16:30:25
+Margherita
+0
+21-6-2024 16:30:25: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 16:30:25: Pizza: Margherita, Toppings: , Prijs: 5
+21-6-2024 16:30:25: Totale Prijs: 5
+21-6-2024 16:30:25: Bevestiging naar client verzonden.
+21-6-2024 16:32:34: TCP Server gestart.
+21-6-2024 16:32:47: Ontvangen 88 bytes.
+21-6-2024 16:32:47: Ontvangen versleuteld bericht:
+7Ixbrmqw8o6RMNDGLvDZzbQEzMYh7ZLuKElufKoh987Uac/9t8twYsw8h2oev1bdYBWeaFI8NX1ngtTPhAslXg==
+21-6-2024 16:32:47: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 16:32:47
+Margherita
+1
+Peppers
+21-6-2024 16:32:47: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 16:32:47: Pizza: Margherita, Toppings: Peppers, Prijs: 6,15
+21-6-2024 16:32:47: Totale Prijs: 6,15
+21-6-2024 16:32:47: Bevestiging naar client verzonden.
+21-6-2024 16:32:57: TCP Server gestart.
+21-6-2024 16:33:21: Ontvangen 108 bytes.
+21-6-2024 16:33:21: Ontvangen versleuteld bericht:
+7Ixbrmqw8o6RMNDGLvDZzV8/VA565uWwuUDUxxKT6gpeCfQKr1HlVTr6P8zJgtZljldG6L1e+Nxx7/kCDzbc3MBIzkikIfU73vKs69asPh0=
+21-6-2024 16:33:21: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 16:33:21
+Margherita
+0
+Tonno
+1
+Uien
+Tonno
+2
+Uien
+Peppers
+21-6-2024 16:33:21: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 16:35:02: TCP Server gestart.
+21-6-2024 16:35:15: Ontvangen 64 bytes.
+21-6-2024 16:35:15: Ontvangen versleuteld bericht:
+t0RywIoVLUIuFw+0502BXqGdWHbxds7df7CBr+lLunHg+NhnOnwIdUADkRB4b702
+21-6-2024 16:35:15: Ontvangen ontsleuteld bericht:
+m
+m
+1234MM
+m
+21-6-2024 16:35:15
+Margherita
+0
+21-6-2024 16:35:15: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 16:35:15: Pizza: Margherita, Toppings: , Prijs: 5
+21-6-2024 16:35:15: Totale Prijs: 5
+21-6-2024 16:35:15: Bevestiging naar client verzonden.
+21-6-2024 16:35:56: TCP Server gestart.
+21-6-2024 16:36:19: Ontvangen 108 bytes.
+21-6-2024 16:36:19: Ontvangen versleuteld bericht:
+7Ixbrmqw8o6RMNDGLvDZzX7JMYNv5HzF3yOaPQtqQor9u5a5wDzrNH9Oxia5D9dg+9bPkXSBeuWdtPM2PdjivRhLykv8JQy1Z1bunPTcvw0=
+21-6-2024 16:36:19: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 16:36:19
+Margherita
+0
+Margherita
+2
+Uien
+Peppers
+21-6-2024 16:36:19: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 16:39:36: TCP Server gestart.
+21-6-2024 16:39:51: Ontvangen 88 bytes.
+21-6-2024 16:39:51: Ontvangen versleuteld bericht:
+7Ixbrmqw8o6RMNDGLvDZzb3r9IJ+7NO55XhbFQZ7IGXLd4k0f/T7K75wjAL3GxMssJKIOr+oyJjwVbsTS9EmjQ==
+21-6-2024 16:39:51: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 16:39:51
+Margherita
+0
+Margherita
+1
+Uien
+21-6-2024 16:39:51: ERROR: Er trad een fout op in de server. - Exception: De indeling van de invoertekenreeks is onjuist.
+21-6-2024 16:43:33: TCP Server gestart.
+21-6-2024 16:43:46: Ontvangen 88 bytes.
+21-6-2024 16:43:46: Ontvangen versleuteld bericht:
+7Ixbrmqw8o6RMNDGLvDZzWhj1org/AAtAeXmKhsii7YKOn04X29Mw0gyq7tlSSAbNmyYcSdrFkq585If8dv8kA==
+21-6-2024 16:43:46: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 16:43:46
+Margherita
+1
+Uien
+21-6-2024 16:43:46: ERROR: Er trad een fout op in de server. - Exception: Onbekende topping: Uien
+21-6-2024 16:43:54: TCP Server gestart.
+21-6-2024 16:44:05: Ontvangen 64 bytes.
+21-6-2024 16:44:05: Ontvangen versleuteld bericht:
+7Ixbrmqw8o6RMNDGLvDZzcXSPbfezQczoNqH/zNlvrljaO0LCj0NNCY7CGPSfJAA
+21-6-2024 16:44:05: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 16:44:05
+Margherita
+0
+21-6-2024 16:44:05: Bestelling ontvangen: m, 1 pizza(s)
+21-6-2024 16:44:05: Pizza: Margherita, Toppings: , Prijs: 5
+21-6-2024 16:44:05: Totale Prijs: 5
+21-6-2024 16:44:05: Bevestiging naar client verzonden.
+21-6-2024 16:47:57: TCP Server gestart.
+21-6-2024 16:48:21: Ontvangen 64 bytes.
+21-6-2024 16:48:21: Ontvangen versleuteld bericht:
+wkhi9+i6TEXHEIHQ4qVdB2D4ksDiQ6A+ddqsiVXyOZ9QwrsHibQZPTeKtwtZRSB7
+21-6-2024 16:48:21: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+n
+21-6-2024 16:48:21
+Tonno
+1
+Uien
+21-6-2024 16:48:21: ERROR: Er trad een fout op in de server. - Exception: De indeling van de invoertekenreeks is onjuist.
+21-6-2024 16:48:55: TCP Server gestart.
+21-6-2024 16:49:15: Ontvangen 64 bytes.
+21-6-2024 16:49:15: Ontvangen versleuteld bericht:
+7Ixbrmqw8o6RMNDGLvDZzcE4/IrzPF4O2i9tyOewBlH3+Q6kx0blhndxE9iRxyMS
+21-6-2024 16:49:15: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 16:49:15
+Tonno
+0
+21-6-2024 16:49:15: Bestelling ontvangen: m, 0 pizza(s)
+21-6-2024 16:49:15: Totale Prijs: 0
+21-6-2024 16:49:15: Bevestiging naar client verzonden.
+21-6-2024 16:53:50: TCP Server gestart.
+21-6-2024 16:53:59: Ontvangen 64 bytes.
+21-6-2024 16:53:59: Ontvangen versleuteld bericht:
+7Ixbrmqw8o6RMNDGLvDZzcaqkUz3/xNUQd5/VLdCxkB2l4RiFzEAJTTAOTo1QMjS
+21-6-2024 16:53:59: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 16:53:59
+Margherita
+0
+21-6-2024 16:53:59: Bestelling ontvangen: m, 0 pizza(s)
+21-6-2024 16:53:59: Totale Prijs: 0
+21-6-2024 16:53:59: Bevestiging naar client verzonden.
+21-6-2024 16:54:11: TCP Server gestart.
+21-6-2024 16:54:25: Ontvangen 88 bytes.
+21-6-2024 16:54:25: Ontvangen versleuteld bericht:
+7Ixbrmqw8o6RMNDGLvDZzTmFlo/rMjrV3IYPahDu4XDqF0xkgGMtg1kiYLGmgbNFduYsF3zwYyWWw3sHlWo1vA==
+21-6-2024 16:54:25: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 16:54:25
+Margherita
+1
+Uien
+21-6-2024 16:54:25: ERROR: Er trad een fout op in de server. - Exception: De indeling van de invoertekenreeks is onjuist.
+21-6-2024 16:57:42: TCP Server gestart.
+21-6-2024 16:57:53: Ontvangen 64 bytes.
+21-6-2024 16:57:53: Ontvangen versleuteld bericht:
+7Ixbrmqw8o6RMNDGLvDZzfLIv7v0syuwc+vij4zg4cxw2+DNx/quyzic/gOPF7qv
+21-6-2024 16:57:53: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 16:57:53
+Margherita
+0
+21-6-2024 16:57:53: Bestelling ontvangen: m, 0 pizza(s)
+21-6-2024 16:57:53: Totale Prijs: 0
+21-6-2024 16:57:53: Bevestiging naar client verzonden.
+21-6-2024 16:58:01: TCP Server gestart.
+21-6-2024 16:58:14: Ontvangen 88 bytes.
+21-6-2024 16:58:14: Ontvangen versleuteld bericht:
+7Ixbrmqw8o6RMNDGLvDZzbkt0cPwJ10FlarvpHamSq2UNGzY2DG131QITFsERkHVc/fwjwvOaEwRJxJQ9rt/hQ==
+21-6-2024 16:58:14: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 16:58:14
+Margherita
+1
+Mushrooms
+21-6-2024 16:58:14: ERROR: Er trad een fout op in de server. - Exception: De indeling van de invoertekenreeks is onjuist.
+21-6-2024 17:19:13: UDP Server gestart.
+21-6-2024 17:19:27: Ontvangen 88 bytes.
+21-6-2024 17:19:27: Ontvangen versleuteld bericht:
+TNq6moqa2X936a+l2QNTKor/sxrz3D7EodKh4fhvIdRHo7f83goDDijiqAxhCH5tFYKekTlFnjawPcLTiLFEXA==
+21-6-2024 17:19:27: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 17:19:19
+Diablo
+2
+Onions
+Peppers
+21-6-2024 17:19:27: ERROR: Er trad een fout op in de server. - Exception: De indeling van de invoertekenreeks is onjuist.
+21-6-2024 17:23:28: UDP Server gestart.
+21-6-2024 17:23:38: Ontvangen 64 bytes.
+21-6-2024 17:23:38: Ontvangen versleuteld bericht:
+TNq6moqa2X936a+l2QNTKsbMdnsJse0ChMEEOt0Hs+qefTLMLx8MlPIeT73Y4rdo
+21-6-2024 17:23:38: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 17:23:31
+Margherita
+0
+21-6-2024 17:23:38: Bestelling ontvangen: m, 0 pizza(s)
+21-6-2024 17:23:38: Totale Prijs: 0
+21-6-2024 17:23:38: Bevestiging naar client verzonden.
+21-6-2024 17:26:44: UDP Server gestart.
+21-6-2024 17:26:58: Ontvangen 64 bytes.
+21-6-2024 17:26:58: Ontvangen versleuteld bericht:
+TNq6moqa2X936a+l2QNTKiUl7p9QR1UsI8XUZmGskh0w4VhaD5RkT5jj8iGo46pm
+21-6-2024 17:26:58: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 17:26:48
+Margherita
+0
+21-6-2024 17:26:58: Bestelling ontvangen: m, 0 pizza(s)
+21-6-2024 17:26:58: Totale Prijs: 0
+21-6-2024 17:26:58: Bevestiging naar client verzonden.
+21-6-2024 17:28:52: UDP Server gestart.
+21-6-2024 17:29:04: Ontvangen 64 bytes.
+21-6-2024 17:29:04: Ontvangen versleuteld bericht:
+TNq6moqa2X936a+l2QNTKnC4rqbFuQ9t7n1V8OeOBKoyuGqMWLxo0opxm6S/ht1X
+21-6-2024 17:29:04: Ontvangen ontsleuteld bericht:
+m
+m
+1234mm
+m
+21-6-2024 17:28:58
+Margherita
+0
+21-6-2024 17:29:04: Bestelling ontvangen: m, 0 pizza(s)
+21-6-2024 17:29:04: Totale Prijs: 0
+21-6-2024 17:29:04: Bevestiging naar client verzonden.

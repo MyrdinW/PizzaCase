@@ -1,6 +1,4 @@
-﻿using PizzaCase.Pizza;
-using System.Collections.Generic;
-using System;
+﻿using System.Collections.Generic;
 
 namespace PizzaCase.Pizza
 {
@@ -10,12 +8,12 @@ namespace PizzaCase.Pizza
 
         public ToppingDecorator(Pizza pizza)
         {
-            this.pizza = pizza ?? throw new ArgumentNullException(nameof(pizza));
+            this.pizza = pizza;
         }
 
         public Pizza GetBasePizza()
         {
-            return this.pizza;
+            return pizza;
         }
 
         public override string Name => pizza.Name;

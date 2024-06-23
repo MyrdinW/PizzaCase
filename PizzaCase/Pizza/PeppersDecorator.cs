@@ -1,17 +1,13 @@
-﻿using System.Collections.Generic;
-
-namespace PizzaCase.Pizza
+﻿namespace PizzaCase.Pizza
 {
     public class PeppersDecorator : ToppingDecorator
     {
-        private readonly double toppingPrice = 1.15;
-
         public PeppersDecorator(Pizza pizza) : base(pizza) { }
 
-        public override double Cost => pizza.Cost + toppingPrice;
+        public override double Cost => pizza.Cost + 1.15;
 
-        public override string Description => pizza.Description + ", Pepers";
+        public override string Description => pizza.Description + ", Peppers";
 
-        protected override string GetToppingName() => "Pepers";
+        protected override string GetToppingName() => "Peppers";
     }
 }

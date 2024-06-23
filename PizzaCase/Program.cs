@@ -40,12 +40,12 @@ namespace PizzaCase
             // Start de client
             if (protocol == "TCP")
             {
-                TCPClient client = new TCPClient("127.0.0.1", 5000, protocol);
+                var client = new TCPClient("127.0.0.1", 5000);
                 client.CollectAndSendOrder();
             }
             else if (protocol == "UDP")
             {
-                UDPClient client = new UDPClient("127.0.0.1", 5000);
+                var client = new UDPClient("127.0.0.1", 5000);
                 client.CollectAndSendOrder();
             }
 
